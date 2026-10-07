@@ -18,22 +18,22 @@ Herramientas de trabajo con Claude Code que valen para cualquier proyecto. Nada 
 
 ## Instalación
 
-Hace falta tener Claude Code y `git`. No hace falta cuenta de GitHub. En una terminal:
+No hace falta cuenta de GitHub ni terminal.
+
+1. En la app de Claude (o en claude.ai), ir a **Customize > Plugins**.
+2. **Add > Add marketplace** y pegar `https://github.com/ekiste83/claude-kit`.
+3. En la lista aparece el plugin **kit**: abrirlo y pulsar **Add**.
+
+Queda guardado en tu cuenta. Úsalo en **Cowork** o en la pestaña **Code**: el consejo necesita agentes, y el chat normal no los ejecuta. En Code, si ya tenías una sesión abierta, escribe `/reload-plugins` o abre una nueva. Luego escribe `/council` seguido de la pregunta.
+
+**Para recibir las mejoras:** en **Customize > Plugins**, abrir el marketplace y pulsar **Check for updates**, o activar **Sync automatically** para que lleguen solas.
+
+**Desde la terminal** (alternativa, solo para Claude Code en ese equipo):
 
 ```bash
 claude plugin marketplace add https://github.com/ekiste83/claude-kit.git
 claude plugin install kit@kit
 ```
-
-Después, abrir una sesión nueva de Claude Code y escribir `/council` seguido de la pregunta.
-
-**Para recibir las mejoras:**
-
-```bash
-claude plugin marketplace update kit && claude plugin update kit@kit
-```
-
-y abrir una sesión nueva.
 
 ## Para sacarle partido
 
