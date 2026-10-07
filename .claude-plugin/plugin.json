@@ -1,0 +1,9 @@
+{
+  "name": "kit",
+  "description": "Kit de trabajo con Claude Code para cualquier proyecto: consejo de asesores (/council), cierre de sesión con consejo y revisores de código y de Supabase.",
+  "author": {
+    "name": "Llorenç Fanés"
+  },
+  "repository": "https://github.com/ekiste83/claude-kit",
+  "keywords": ["consejo", "council", "cierre-de-sesion", "code-review", "supabase", "rls"]
+}

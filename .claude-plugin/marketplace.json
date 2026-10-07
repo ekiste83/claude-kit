@@ -1,0 +1,16 @@
+{
+  "name": "kit",
+  "owner": {
+    "name": "Llorenç Fanés"
+  },
+  "metadata": {
+    "description": "Marketplace del plugin kit: consejo de asesores, cierre de sesión y revisores."
+  },
+  "plugins": [
+    {
+      "name": "kit",
+      "source": "./",
+      "description": "Consejo de asesores, cierre de sesión con consejo y revisores de código y de Supabase."
+    }
+  ]
+}
