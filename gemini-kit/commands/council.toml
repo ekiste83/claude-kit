@@ -1,0 +1,6 @@
+description = "Consejo de asesores: /council <pregunta> convoca a 3; /council full <pregunta>, a los 5."
+prompt = """
+Activa la skill `council` y síguela al pie de la letra con este argumento:
+
+{{args}}
+"""

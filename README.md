@@ -35,6 +35,10 @@ claude plugin marketplace add https://github.com/ekiste83/claude-kit.git
 claude plugin install kit@kit
 ```
 
+## Versión para Gemini CLI
+
+La carpeta `gemini-kit/` tiene el mismo kit adaptado a Gemini CLI, para quien trabaja con Google en lugar de Claude. Instalación y uso en `gemini-kit/README.md`. Es una copia: si cambias un asesor, un revisor o una skill aquí, cámbialo también allí.
+
 ## Para sacarle partido
 
 El consejo y los revisores leen el `CLAUDE.md` del proyecto. Cuanto mejor diga qué es el proyecto, quién lo usa, el stack y sus reglas innegociables ("NUNCA…", "SIEMPRE…"), mejores opiniones dan. Si además hay un `docs/decisions.md` con las decisiones y su fecha, el archivista lo usa para avisar cuando se reabre algo ya decidido.
@@ -43,9 +47,10 @@ El consejo y los revisores leen el `CLAUDE.md` del proyecto. Cuanto mejor diga q
 
 1. Editar los archivos del repo.
 2. Comprobar: `claude plugin validate .claude-plugin/plugin.json` (el único aviso esperado es que no hay `version`).
-3. Commit. El plugin no lleva `version` a propósito: cada commit cuenta como versión nueva.
-4. `claude plugin update kit@kit` y push a GitHub.
-5. Abrir una sesión nueva (o `/reload-plugins`) para usar la versión nueva.
+3. Si el cambio toca `agents/` o `skills/`, llevarlo también a `gemini-kit/` y comprobar con `gemini extensions validate gemini-kit`.
+4. Commit. El plugin no lleva `version` a propósito: cada commit cuenta como versión nueva.
+5. `claude plugin update kit@kit` y push a GitHub.
+6. Abrir una sesión nueva (o `/reload-plugins`) para usar la versión nueva.
 
 ## Origen
 

@@ -1,0 +1,6 @@
+{
+  "name": "gemini-kit",
+  "version": "1.0.0",
+  "description": "Consejo de asesores (/council), cierre de sesión con consejo y revisores de código y de Supabase. Versión para Gemini CLI del kit de Claude Code.",
+  "contextFileName": "GEMINI.md"
+}

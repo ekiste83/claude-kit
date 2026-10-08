@@ -1,0 +1,6 @@
+description = "Cierre de sesión: reglas de cierre del proyecto, consejo, registro de estado y commit tras tu OK. /cerrar-sesion directo se salta el consejo."
+prompt = """
+Cerramos sesión. Activa la skill `cerrar-sesion` y síguela al pie de la letra.
+
+Indicaciones del usuario (si dice "directo" o "sin consejo", sáltate el consejo): {{args}}
+"""
