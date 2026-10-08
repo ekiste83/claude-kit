@@ -35,6 +35,8 @@ gemini extensions link ~/claude-kit/gemini-kit
 
 **Para recibir las mejoras:** `cd ~/claude-kit && git pull`, y abrir una sesión nueva de Gemini CLI.
 
+**Si te han pasado un zip** en lugar del enlace al repo: descomprímelo en una carpeta que no vayas a mover (por ejemplo, `~/gemini-kit`) y ejecuta `gemini extensions link ~/gemini-kit`. Para actualizar, sustituye esa carpeta por la del zip nuevo y abre una sesión nueva.
+
 ## Uso
 
 - `/council ¿Migramos el login a magic links o lo dejamos como está?`
