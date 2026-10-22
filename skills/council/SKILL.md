@@ -32,7 +32,7 @@ Convoca al consejo de asesores para evaluar la siguiente cuestión.
      | Código, datos, infraestructura | simplifier, skeptic, pragmatist |
      | Producto, UX, copy, contenido | user-advocate, simplifier, pragmatist |
      | Estrategia, negocio, prioridades, herramientas | pragmatist, skeptic, archivist |
-     | Cierre de sesión | según lo que se haya cambiado; si hay mezcla, simplifier, skeptic, user-advocate |
+     | Cierre de sesión | no aplica: el cierre (skill `cerrar-sesion`) convoca siempre a los 5 |
 
      Si dudas entre dos tipos, elige el que más riesgo tenga y di en una línea qué tipo has elegido.
 
