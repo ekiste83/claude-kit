@@ -37,6 +37,8 @@ claude plugin install kit@kit
 
 ## Para sacarle partido
 
+Los cinco asesores del consejo se ejecutan siempre con el modelo Opus (`model: opus` en su cabecera), aunque la sesión esté en otro modelo. Los revisores usan el de la sesión.
+
 El consejo y los revisores leen el `CLAUDE.md` del proyecto. Cuanto mejor diga qué es el proyecto, quién lo usa, el stack y sus reglas innegociables ("NUNCA…", "SIEMPRE…"), mejores opiniones dan. Si además hay un `docs/decisions.md` con las decisiones y su fecha, el archivista lo usa para avisar cuando se reabre algo ya decidido.
 
 ## Cómo modificarlo (mantenimiento)

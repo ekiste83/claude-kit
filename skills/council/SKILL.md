@@ -36,7 +36,7 @@ Convoca al consejo de asesores para evaluar la siguiente cuestión.
 
      Si dudas entre dos tipos, elige el que más riesgo tenga y di en una línea qué tipo has elegido.
 
-5. **Lanza a los asesores en PARALELO** (todas las llamadas en un único mensaje), con `subagent_type` = `kit:council-<nombre>` y el mismo brief.
+5. **Lanza a los asesores en PARALELO** (todas las llamadas en un único mensaje), con `subagent_type` = `kit:council-<nombre>`, **`model: "opus"`** y el mismo brief. Los asesores van siempre con Opus, aunque la sesión esté en otro modelo (también está fijado en la cabecera de cada agente).
 
 6. **Espera todas las respuestas.**
 
